@@ -1,0 +1,222 @@
+.layout{
+    display: grid;
+    width: 1440px;
+    grid-template-columns: 4320px;
+    grid-template-rows: 1200px 4200px 800px;
+    grid-template-areas:    "hero" 
+                            "whitee" 
+                            "botom";
+
+}
+.hero{
+    grid-area: hero;
+}
+.huddle{
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 500px;
+    
+}
+.free{
+    background-color: white;
+    margin-left: 800px;
+    margin-top: 60px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 150px;
+    font-size: 70px;
+    font-weight: bolder;
+    width: 350px;
+    height: 100px;
+}
+.ltext{
+    margin-left: 300px;
+    margin-top: 200px;
+    font-size: 60px;
+}
+.par1{
+    line-height: 100px;
+}
+.rbox{
+    background-color: hsl(322, 100%, 66%);
+    font-weight: bold;
+    width: 540px;
+    margin-top: 10px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 150px;
+    align-items: center;
+}
+.rimage{
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 1300px;
+}
+.whitee{
+    grid-area: whitee;
+}
+.grow{
+    margin-top: 200px;
+    margin-left: 600px;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+.growimg{
+    width: 800px;
+    margin-left: 400px;
+}
+.flow{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+.flowimg{
+    width: 800px;
+    margin-left: 600px;
+}
+.users{
+    margin-top: 200px;
+    margin-left: 600px;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+.userimg{
+    width: 800px;
+    margin-left: 400px;
+}
+.botom{
+    grid-area: botom;
+}
+
+.hero{
+    background-image: url(bg-hero-desktop.svg);
+}
+.hero{
+    display: grid;
+    grid-template-columns: 4320px;
+    grid-template-rows: 100px 700px;
+    grid-template-areas:    "line1" 
+                            "line2";
+}
+.line1{
+    display: grid;
+    grid-template-columns: 2160px 2160px;
+    grid-template-rows: 100px;
+    grid-template-areas:    "huddle" "free";
+}
+.line2{
+    display: grid;
+    grid-template-columns: 1960px 2360px;
+    grid-template-rows: 700px;
+    grid-template-areas:    "ltext" "image";
+}
+.whitee{
+    display: grid;
+    grid-template-columns: 4320px;
+    grid-template-rows: 800px 800px 800px;
+    grid-template-areas:    "line3" 
+                            "line4"
+                            "line5";
+}
+.line3{
+    display: grid;
+    grid-template-columns: 2160px 2160px;
+    grid-template-rows: 800px;
+    grid-template-areas:    "grow" "growimg";
+    margin-top: 500px;
+}
+.line4{
+    display: grid;
+    grid-template-columns: 2160px 2160px;
+    grid-template-rows: 800px;
+    grid-template-areas:    "flow" "flowimg";
+    margin-top: 800px;
+}
+.line5{
+    display: grid;
+    grid-template-columns: 2160px 2160px;
+    grid-template-rows: 800px;
+    grid-template-areas:    "users" "userimg";
+    margin-top: 1000px;
+}
+.botom{
+    display: grid;
+    grid-template-columns: 1080px 1080px 1080px 1080px;
+    grid-template-rows: 800px;
+    grid-template-areas:    "col1" "col2" "col3" "col4";
+    color: white;
+}
+.hud{
+    filter: invert(50);
+    width: 500px;
+    margin-top: 200px;
+}
+.loc{
+    display: grid;
+    grid-template-columns: 20px 880px;
+    grid-template-rows: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.loca{
+    margin-top: 40px;
+}
+.locat{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.pho{
+    display: grid;
+    grid-template-columns: 20px 880px;
+    grid-template-rows: 200px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.phon{
+    margin-top: 20px;
+}
+.phone{
+    margin-left: 80px;
+    font-size: 30px;
+    line-height: 0px;
+}
+.ema{
+    display: grid;
+    grid-template-columns: 20px 880px;
+    grid-template-rows: 500px;
+    margin-top: -150px;
+    margin-left: 20px;
+    font-size: 0;
+}
+.emai{
+    margin-top: 40px;
+}
+.email{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.col1{
+    /*margin-top: 200px;*/
+    margin-left: 150px;
+}
+.col2{
+    font-size: 40px;
+}
+.about{
+    margin-top: 375px;
+}
+.col3{
+    font-size: 40px;
+}
+.car{
+    margin-top: 375px;
+}
+.col4{
+    font-size: 40px;
+}
+.cop{
+    margin-top: 625px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
